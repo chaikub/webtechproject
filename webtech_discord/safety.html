@@ -437,6 +437,43 @@
             display: grid;
             margin-bottom: 50px;
         }
+        .botbackground{
+            background-color: #7289da;
+        }
+        .bottext{
+            margin-top: 30px;
+            color: white;
+            font-size: 16px 2vw 20px;
+            line-height: 1;
+        }
+        .botbut{
+            margin-top: 32px;
+        }
+        .footmenu{
+            margin-top: 24px;
+            display: flex;
+            align-items: center;
+        }
+        .cmenu{
+            position: relative;
+        }
+        .cimg{
+            width: 24px;
+            height: 16px;
+            margin-right: 8px;
+        }
+        .cmenutable{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .ctext{
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .menubut{
+            padding: 8px;
+        }
     </style>
 </head>
 
@@ -487,7 +524,7 @@
                             <a class="abar" href="blog.html">Blog</a>
                         </div>
                         <div class="navbutton">
-                            <a class="but" href="">Open Discord</a>
+                            <a class="but" href="login.html">Login</a>
                         </div>
                     </nav>
                 </header>
@@ -663,7 +700,16 @@
         <div class="gridrow footercon">
             <div class="gridfooter">
                 <div class="foothead">
-                    <h3 class="h3foottext">Imagine a place</h3>
+                    <h4 class="h3foottext">Imagine a place</h4>
+                </div>
+                <div class="footmenu">
+                    <div class="cmenu">
+                        <div class="cmenutable">
+                            <img class="cimg" src="picture/Eng.png">
+                            <div class="ctext">English, USA</div>
+                            <img class="menubut" onclick="menubar()" src="picture/menubut.svg">
+                        </div>
+                    </div>
                 </div>
                 <div class="footlogolink">
                     <a class="logowhite" href="https://twitter.com/discord" title="Discord on Twitter">
@@ -689,14 +735,16 @@
                             </g>
                         </svg>
                     </a>
-                    <a class="logowhite linkicon" href="https://www.facebook.com/discord/" title="Discord on Facebook">
+                    <a class="logowhite linkicon" href="https://www.facebook.com/discord/"
+                        title="Discord on Facebook">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor"
                                 d="M20.875 2H3.09375C2.46875 2 2 2.5 2 3.09375V20.875C2 21.5 2.5 21.9687 3.09375 21.9687H12.6875V14.2188H10.0625V11.1875H12.6562V8.96874C12.6562 6.375 14.2187 4.96875 16.5312 4.96875C17.625 4.96875 18.5937 5.0625 18.875 5.09375V7.78125H17.2812C16.0312 7.78125 15.7812 8.375 15.7812 9.25V11.1875H18.7812L18.4062 14.25H15.8125V22H20.9062C21.5312 22 22 21.5 22 20.9062V3.125C22 2.46875 21.5 2 20.875 2Z">
                             </path>
                         </svg>
                     </a>
-                    <a class="logowhite linkicon" href="https://www.youtube.com/discord/" title="Discord on YouTube">
+                    <a class="logowhite linkicon" href="https://www.youtube.com/discord/"
+                        title="Discord on YouTube">
                         <svg width="24" height="24" viewBox="0 0 24 24">
                             <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"
                                 d="M21.3766 4.10479C22.4093 4.38257 23.2225 5.20102 23.4985 6.24038C24 8.12411 24 12.0545 24 12.0545C24 12.0545 24 15.9848 23.4985 17.8688C23.2225 18.908 22.4093 19.7265 21.3766 20.0044C19.505 20.5091 12 20.5091 12 20.5091C12 20.5091 4.49496 20.5091 2.62336 20.0044C1.59082 19.7265 0.777545 18.908 0.501545 17.8688C0 15.9848 0 12.0545 0 12.0545C0 12.0545 0 8.12411 0.501545 6.24038C0.777545 5.20102 1.59082 4.38257 2.62336 4.10479C4.49496 3.59998 12 3.59998 12 3.59998C12 3.59998 19.505 3.59998 21.3766 4.10479ZM15.8182 12.0546L9.54551 15.623V8.48596L15.8182 12.0546Z">
@@ -709,38 +757,37 @@
             </div>
             <div class="footercolumn">
                 <h3 class="footheadtext">Product</h3>
-                <a class="footera" href="/">Download</a>
-                <a class="footera" href="/">Nitro</a>
-                <a class="footera" href="/">Status</a>
+                <a class="footera" href="">Download</a>
+                <a class="footera" href="">Nitro</a>
+                <a class="footera" href="">Status</a>
             </div>
             <div class="footercolumn">
                 <h3 class="footheadtext">Company</h3>
-                <a class="footera" href="/">About</a>
-                <a class="footera" href="/">Jobs</a>
-                <a class="footera" href="/">Branding</a>
-                <a class="footera" href="/">Newsroom</a>
+                <a class="footera" href="">About</a>
+                <a class="footera" href="">Jobs</a>
+                <a class="footera" href="">Branding</a>
+                <a class="footera" href="">Newsroom</a>
             </div>
             <div class="footercolumn">
                 <h3 class="footheadtext">Resources</h3>
-                <a class="footera" href="/">College</a>
-                <a class="footera" href="/">Support</a>
-                <a class="footera" href="/">Safety</a>
-                <a class="footera" href="/">Blog</a>
-                <a class="footera" href="/">Feedback</a>
-                <a class="footera" href="/">Developers</a>
-                <a class="footera" href="/">StreamKit</a>
+                <a class="footera" href="">College</a>
+                <a class="footera" href="">Support</a>
+                <a class="footera" href="">Safety</a>
+                <a class="footera" href="">Blog</a>
+                <a class="footera" href="">Feedback</a>
+                <a class="footera" href="">Developers</a>
+                <a class="footera" href="">StramKit</a>
             </div>
             <div class="footercolumn">
                 <h3 class="footheadtext">Policies</h3>
-                <a class="footera" href="/">Terms</a>
-                <a class="footera" href="/">Privacy</a>
-                <a class="footera" href="/">Cookie Settings</a>
-                <a class="footera" href="/">Guidelines</a>
-                <a class="footera" href="/">Acknowledgements</a>
-                <a class="footera" href="/">Licenses</a>
-                <a class="footera" href="/">Moderation</a>
+                <a class="footera" href="">Terms</a>
+                <a class="footera" href="">Privacy</a>
+                <a class="footera" href="">Cookie Settings</a>
+                <a class="footera" href="">Guidelines</a>
+                <a class="footera" href="">Acknowledgements</a>
+                <a class="footera" href="">Licenses</a>
+                <a class="footera" href="">Moderation</a>
             </div>
-
         </div>
         <div class="gridrow">
             <div class="footner">
@@ -778,12 +825,12 @@
                                 </path>
                             </g>
                         </svg></a>
-                    <a class="but footbut" href="">Open Discord</a>
+                    <a class="but footbut" href="login.html">Sign up</a>
                 </div>
             </div>
 
         </div>
-    </div>
+</div>
 
 
 
