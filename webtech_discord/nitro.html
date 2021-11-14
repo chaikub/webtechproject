@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
 
-    <link rel="icon" href="/picture/dis.ico" type="image/icon type">
+    <link rel="icon" href="picture/dis.ico" type="image/icon type">
     <style>
         body {
             margin: 0;
@@ -337,7 +337,7 @@
             font-family: 'Rammetto One', cursive;
             text-transform: uppercase;
             flex-grow: 1;
-            margin-bottom: 50px;
+            /* margin-bottom: 50px; */
             color: #5865f2;
             font-size: 32px;
             font-weight: 800;
@@ -347,6 +347,7 @@
         .footlogolink {
             display: flex;
             align-items: center;
+            margin-top: 24px;
         }
 
         .linkicon {
@@ -424,6 +425,53 @@
             display: grid;
             margin-bottom: 50px;
         }
+        .botcon{
+            display: grid;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            align-items: center;
+            justify-content: end;
+        }
+        .botimg{
+            width: 200px;
+        }
+        .botbackground{
+            background-color: #7289da;
+        }
+        .bottext{
+            margin-top: 30px;
+            color: white;
+            font-size: 16px 2vw 20px;
+            line-height: 1;
+        }
+        .botbut{
+            margin-top: 32px;
+        }
+        .footmenu{
+            margin-top: 24px;
+            display: flex;
+            align-items: center;
+        }
+        .cmenu{
+            position: relative;
+        }
+        .cimg{
+            width: 24px;
+            height: 16px;
+            margin-right: 8px;
+        }
+        .cmenutable{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .ctext{
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .menubut{
+            padding: 8px;
+        }
     </style>
 </head>
 
@@ -474,14 +522,14 @@
                                 <a class="abar" href="">Blog</a>
                             </div>
                             <div class="navbutton">
-                                <a class="but" href="">Open Discord</a>
+                                <a class="but" href="login.html">Login</a>
                             </div>
                         </nav>
                     </header>
                 </div>
                 <div class="gridrow title">
                     <div class="pictitle">
-                        <img class="pigni" src="/picture/disnitro.svg">
+                        <img class="pigni" src="picture/disnitro.svg">
                     </div>
                     <div class="text">
                         Get an enhanced Discord experience for one low monthly cost.
@@ -500,7 +548,7 @@
                 </div>
                 <div class="videowrap">
                     <video loop autoplay class="videotitle">
-                        <source src="/video/nitrov.webm">
+                        <source src="video/nitrov.webm">
                     </video>
                 </div>
             </div>
@@ -512,32 +560,32 @@
                 <div class="contitle better">
                     <div class="contitleheadtext">Better Emoji</div>
                     <div class="contitletext">Collect or make your own custom and animated emojis.</div>
-                    <img class="conimage" src="/picture/better.svg">
+                    <img class="conimage" src="picture/better.svg">
                 </div>
                 <div class="contitle person">
                     <div class="contitleheadtext">Personal Profile</div>
                     <div class="contitletext">Use an animated avatar and claim a custom tag.</div>
-                    <img class="conimage" src="/picture/personal.svg">
+                    <img class="conimage" src="picture/personal.svg">
                 </div>
                 <div class="contitle support">
                     <div class="contitleheadtext">Support a Server</div>
                     <div class="contitletext">Get 2 Server Boosts and 30% off extra Boosts.</div>
-                    <img class="conimage" src="/picture/support.svg">
+                    <img class="conimage" src="picture/support.svg">
                 </div>
                 <div class="contitle rep">
                     <div class="contitleheadtext">Rep Your Support</div>
                     <div class="contitletext">Bigger Uploads</div>
-                    <img class="conimage" src="/picture/rep.svg">
+                    <img class="conimage" src="picture/rep.svg">
                 </div>
                 <div class="contitle bigger">
                     <div class="contitleheadtext">Bigger Uploads</div>
                     <div class="contitletext">100MB upload size for high-quality file sharing.</div>
-                    <img width="177px" height="112px" class="conimage" src="/picture/bigger.png">
+                    <img width="177px" height="112px" class="conimage" src="picture/bigger.png">
                 </div>
                 <div class="contitle hd">
                     <div class="contitleheadtext">HD Video</div>
                     <div class="contitletext">Hi-res video, screenshare, and Go Live streaming.</div>
-                    <img width="177px" height="112px" class="conimage" src="/picture/hdvedio.png">
+                    <img width="177px" height="112px" class="conimage" src="picture/hdvedio.png">
                 </div>
             </div>
             <div class="gridrow">
@@ -554,11 +602,39 @@
 
             </div>
         </div>
+        <div class="grid botbackground">
+            <div class="gridrow">
+                <div class="botcon">
+                    <img class="botimg" src="picture/nitroclassic.svg">
+                    <div class="bottext">
+                        Keep it simple — get the base chat perks without a Server Boost.
+                    </div>
+                    <div class="bothbutton botbut">
+                        <button class="buttonblack">
+                            $49.99 per year
+                            <div class="buttext">16% off</div>
+                        </button>
+                        <button class="buttonblack">
+                            $4.99 per month
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="grid blackbackground">
             <div class="gridrow footercon">
                 <div class="gridfooter">
                     <div class="foothead">
-                        <h3 class="h3foottext">Imagine a place</h3>
+                        <h4 class="h3foottext">Imagine a place</h4>
+                    </div>
+                    <div class="footmenu">
+                        <div class="cmenu">
+                            <div class="cmenutable">
+                                <img class="cimg" src="picture/Eng.png">
+                                <div class="ctext">English, USA</div>
+                                <img class="menubut" onclick="menubar()" src="picture/menubut.svg">
+                            </div>
+                        </div>
                     </div>
                     <div class="footlogolink">
                         <a class="logowhite" href="https://twitter.com/discord" title="Discord on Twitter">
@@ -606,38 +682,37 @@
                 </div>
                 <div class="footercolumn">
                     <h3 class="footheadtext">Product</h3>
-                    <a class="footera" href="/">Download</a>
-                    <a class="footera" href="/">Nitro</a>
-                    <a class="footera" href="/">Status</a>
+                    <a class="footera" href="">Download</a>
+                    <a class="footera" href="">Nitro</a>
+                    <a class="footera" href="">Status</a>
                 </div>
                 <div class="footercolumn">
                     <h3 class="footheadtext">Company</h3>
-                    <a class="footera" href="/">About</a>
-                    <a class="footera" href="/">Jobs</a>
-                    <a class="footera" href="/">Branding</a>
-                    <a class="footera" href="/">Newsroom</a>
+                    <a class="footera" href="">About</a>
+                    <a class="footera" href="">Jobs</a>
+                    <a class="footera" href="">Branding</a>
+                    <a class="footera" href="">Newsroom</a>
                 </div>
                 <div class="footercolumn">
                     <h3 class="footheadtext">Resources</h3>
-                    <a class="footera" href="/">College</a>
-                    <a class="footera" href="/">Support</a>
-                    <a class="footera" href="/">Safety</a>
-                    <a class="footera" href="/">Blog</a>
-                    <a class="footera" href="/">Feedback</a>
-                    <a class="footera" href="/">Developers</a>
-                    <a class="footera" href="/">StramKit</a>
+                    <a class="footera" href="">College</a>
+                    <a class="footera" href="">Support</a>
+                    <a class="footera" href="">Safety</a>
+                    <a class="footera" href="">Blog</a>
+                    <a class="footera" href="">Feedback</a>
+                    <a class="footera" href="">Developers</a>
+                    <a class="footera" href="">StramKit</a>
                 </div>
                 <div class="footercolumn">
                     <h3 class="footheadtext">Policies</h3>
-                    <a class="footera" href="/">Terms</a>
-                    <a class="footera" href="/">Privacy</a>
-                    <a class="footera" href="/">Cookie Settings</a>
-                    <a class="footera" href="/">Guidelines</a>
-                    <a class="footera" href="/">Acknowledgements</a>
-                    <a class="footera" href="/">Licenses</a>
-                    <a class="footera" href="/">Moderation</a>
+                    <a class="footera" href="">Terms</a>
+                    <a class="footera" href="">Privacy</a>
+                    <a class="footera" href="">Cookie Settings</a>
+                    <a class="footera" href="">Guidelines</a>
+                    <a class="footera" href="">Acknowledgements</a>
+                    <a class="footera" href="">Licenses</a>
+                    <a class="footera" href="">Moderation</a>
                 </div>
-
             </div>
             <div class="gridrow">
                 <div class="footner">
@@ -675,12 +750,12 @@
                                     </path>
                                 </g>
                             </svg></a>
-                        <a class="but footbut" href="">Open Discord</a>
+                        <a class="but footbut" href="login.html">Sign up</a>
                     </div>
                 </div>
 
             </div>
-        </div>
+    </div>
 </body>
 
 </html>
