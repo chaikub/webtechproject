@@ -1,0 +1,400 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.web-amount {
+    height: 100%;
+}
+
+.web-container {
+    width: 100%;
+}
+
+.blog-header {
+    width: 100%;
+}
+
+.header-navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #404eed;
+    min-height: 84px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-items: left;
+    align-items: center;
+}
+
+.navbar-left {
+    width: 50%;
+    float: left;
+}
+
+.navbar-right {
+    width: 50%;
+}
+
+.goRight {
+    float: right;
+}
+
+.navbar-right-item {
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-right-item:hover {
+    text-decoration: underline;
+}
+
+.header-background {
+    background-color: #404eed;
+    width: 100%;
+    height: 400px;
+}
+
+@media screen and (max-width: 960px) {
+    .header-background {
+        height: 350px;
+
+    }
+    .blog-content.content-up {
+        margin-top: -400px;
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .header-background {
+        height: 230px;
+
+    }
+    .blog-content.content-up {
+        margin-top: -290px;
+    }
+}
+
+.blog-content-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blog-content {
+    display: block;
+    max-width: 1480px;
+    min-height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.content-up {
+    margin-top: -442px;
+    margin-bottom: 120px;
+}
+
+.blog-detail {
+    margin-top: 30px;
+}
+
+.content-title {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5865f2;
+    text-transform: uppercase;
+}
+
+.content-title:hover {
+    color: #626ff8;
+}
+
+.content-label {
+    display: block;
+    margin-top: -5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #23272a;
+    text-transform: uppercase;
+}
+
+.content-label:hover {
+    color: #626ff8;
+}
+
+.blog-portal-container {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+.blog-portal {
+    display: block;
+    width: 50%;
+}
+
+.blog-portal-3 {
+    display: block;
+    width: 33.3333333333%;
+}
+
+.portal-title {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5865f2;
+    text-transform: uppercase;
+}
+
+.portal-label {
+    display: block;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #23272a;
+    text-transform: uppercase;
+}
+
+.portal-label:hover {
+    color: #626ff8;
+}
+
+.blog-portal-container2 {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 40px 50px;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    gap: 90px;
+}
+
+.blog-portal-left {
+    display: block;
+    width: 30%;
+    padding-top: 20px;
+}
+
+.blog-portal-right {
+    display: block;
+    width: 70%;
+}
+
+.portal-label-small {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #23272a;
+    text-transform: uppercase;
+}
+
+.portal-title-small {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    color: #5865f2;
+    text-transform: uppercase;
+}
+
+.portal-description-small {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #23272a;
+}
+
+.portal-label-smaller {
+    margin-top: 15px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #23272a;
+    text-transform: uppercase;
+}
+
+.portal-label-smaller:hover {
+    color: #626ff8;
+}
+
+.portal-main-small {
+    width: 100%;
+    display: block;
+}
+
+.blog-portal-rightTop {
+    width: 100%;
+    display: block;
+}
+
+.blog-portal-rightButtom {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.img-portal-small {
+    height: 150px;
+    object-fit: cover;
+}
+
+.portal-button {
+    background-color: #5865f2;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.portal-button:hover {
+    background-color: #404eed;
+}
+
+.footer-button {
+    background-color: #5865f2;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.web-footer {
+    width: 100%;
+    background-color: #23272a;
+    height: 800px;
+}
+
+.footer-content-container {
+    display: block;
+    max-width: 1480px;
+    min-height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    padding-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    gap: 130px;
+}
+
+.footer-left {
+    display: block;
+    width: 30%;
+}
+
+.footer-right {
+    display: block;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.footer-inner {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+
+.footer-inners {
+    display: inline-block;
+}
+
+.footer-title {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 0.88;
+    color: #5865f2;
+    text-transform: uppercase;
+}
+
+.footer-label {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    color: #5865f2;
+}
+
+.footer-portal {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer-portal:hover {
+    text-decoration: underline;
+}
+
+.footer-lower-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 78%;
+}
+
+.footer-line {
+    height: 1;
+    background-color: #5865f2;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.footer-lower-left {
+    float: left;
+}
+
+.footer-lower-right {
+    float: right;
+}
